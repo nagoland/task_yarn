@@ -1,0 +1,15 @@
+{
+  "name": "yarn_task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nagoland/task_slide.git",
+  "author": "nago_land <www1224a@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  }
+}

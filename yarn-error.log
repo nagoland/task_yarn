@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/Cellar/node/12.12.0/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js add webpack --dev
+
+PATH: 
+  /Users/nagoyawataru/anaconda3/bin:/anaconda3/bin:/anaconda3/condabin:/Users/nagoyawataru/.pyenv/shims:/Users/nagoyawataru/.pyenv/bin:/Users/nagoyawataru/.pyenv/shims:/Users/nagoyawataru/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webpack: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:141224:19)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "yarn_task",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/nagoland/task_slide.git",
+    "author": "nago_land <www1224a@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
